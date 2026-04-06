@@ -1,13 +1,22 @@
 # AI Task Automation Agent
 
-This project uses Google ADK to automate task planning.
-“Uses AI-based task planning logic”
-“Designed using agent principles from ADK”
+## Overview
+This project is a simple AI-inspired task planning agent that generates structured plans based on user input.
 
 ## Features
-- Converts task into structured plan
-- Uses Gemini model
-- Outputs JSON format
+- Accepts user-defined tasks
+- Dynamically generates step-by-step plans
+- Provides structured JSON output
+- Deployed on cloud platform
 
-## Run
-python main.py
+## Tech Stack
+- Python
+- Flask
+- Gunicorn
+- Cloud Deployment (Render)
+
+## How It Works
+The agent analyzes the input task and dynamically generates a plan by breaking it into actionable steps.
+
+## Live Demo
+https://ai-agent-wbfl.onrender.com
